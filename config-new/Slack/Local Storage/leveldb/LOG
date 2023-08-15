@@ -1,0 +1,12 @@
+2023/08/11-11:43:20.407 bcf Reusing MANIFEST /home/jimmy/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2023/08/11-11:43:20.407 bcf Recovering log #100
+2023/08/11-11:43:20.407 bcf Reusing old log /home/jimmy/.config/Slack/Local Storage/leveldb/000100.log 
+2023/08/11-11:45:20.847 bcf Level-0 table #105: started
+2023/08/11-11:45:20.862 bcf Level-0 table #105: 14121 bytes OK
+2023/08/11-11:45:20.870 bcf Delete type=0 #100
+2023/08/11-11:47:20.847 bcf Level-0 table #107: started
+2023/08/11-11:47:20.862 bcf Level-0 table #107: 13490 bytes OK
+2023/08/11-11:47:20.870 bcf Delete type=0 #104
+2023/08/11-13:21:20.847 bcf Level-0 table #109: started
+2023/08/11-13:21:20.863 bcf Level-0 table #109: 15592 bytes OK
+2023/08/11-13:21:20.870 bcf Delete type=0 #106

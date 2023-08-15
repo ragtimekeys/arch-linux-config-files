@@ -1,0 +1,139 @@
+10:28:18.679: Using EGL/X11
+10:28:18.679: CPU Name: AMD Ryzen 9 7945HX with Radeon Graphics
+10:28:18.679: CPU Speed: 5260.377MHz
+10:28:18.679: Physical Cores: 16, Logical Cores: 32
+10:28:18.679: Physical Memory: 63503MB Total, 58695MB Free
+10:28:18.679: Kernel Version: Linux 6.3.9-arch1-1
+10:28:18.679: Distribution: "Arch Linux" Unknown
+10:28:18.679: Desktop Environment: i3 (i3)
+10:28:18.679: Session Type: x11
+10:28:18.679: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:28:18.680: Qt Version: 6.5.1 (runtime), 6.5.1 (compiled)
+10:28:18.680: Portable mode: false
+10:28:18.695: OBS 29.1.1-2 (linux)
+10:28:18.696: ---------------------------------
+10:28:18.697: ---------------------------------
+10:28:18.698: audio settings reset:
+10:28:18.698: 	samples per sec: 48000
+10:28:18.698: 	speakers:        2
+10:28:18.698: 	max buffering:   960 milliseconds
+10:28:18.698: 	buffering type:  dynamically increasing
+10:28:18.699: ---------------------------------
+10:28:18.699: Initializing OpenGL...
+10:28:18.728: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4090 Laptop GPU/PCIe/SSE2
+10:28:18.728: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.54.03, shading language 3.30 NVIDIA via Cg compiler
+10:28:18.742: ---------------------------------
+10:28:18.742: video settings reset:
+10:28:18.742: 	base resolution:   3840x2160
+10:28:18.742: 	output resolution: 3840x2160
+10:28:18.742: 	downscale filter:  Bicubic
+10:28:18.742: 	fps:               60/1
+10:28:18.742: 	format:            NV12
+10:28:18.742: 	YUV mode:          Rec. 709/Partial
+10:28:18.742: NV12 texture support not available
+10:28:18.742: P010 texture support not available
+10:28:18.760: Audio monitoring device:
+10:28:18.760: 	name: Default
+10:28:18.760: 	id: default
+10:28:18.760: ---------------------------------
+10:28:18.763: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:28:18.767: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:28:18.769: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:28:18.769: Failed to initialize module 'decklink.so'
+10:28:18.826: [pipewire] No captures available
+10:28:18.834: v4l2loopback not installed, virtual camera disabled
+10:28:18.846: NVENC supported
+10:28:18.846: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+10:28:18.846: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+10:28:18.846: FFmpeg VAAPI H264 encoding not supported
+10:28:18.846: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+10:28:18.846: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+10:28:18.846: FFmpeg VAAPI HEVC encoding not supported
+10:28:18.875: ---------------------------------
+10:28:18.875:   Loaded Modules:
+10:28:18.875:     text-freetype2.so
+10:28:18.875:     rtmp-services.so
+10:28:18.875:     obs-x264.so
+10:28:18.875:     obs-vst.so
+10:28:18.875:     obs-transitions.so
+10:28:18.875:     obs-outputs.so
+10:28:18.875:     obs-libfdk.so
+10:28:18.875:     obs-filters.so
+10:28:18.875:     obs-ffmpeg.so
+10:28:18.875:     linux-v4l2.so
+10:28:18.875:     linux-pulseaudio.so
+10:28:18.875:     linux-pipewire.so
+10:28:18.875:     linux-jack.so
+10:28:18.875:     linux-capture.so
+10:28:18.875:     linux-alsa.so
+10:28:18.875:     image-source.so
+10:28:18.875:     frontend-tools.so
+10:28:18.875:     decklink-output-ui.so
+10:28:18.875:     decklink-captions.so
+10:28:18.875: ---------------------------------
+10:28:18.875: ==== Startup complete ===============================================
+10:28:18.911: All scene data cleared
+10:28:18.911: ------------------------------------------------
+10:28:18.912: xshm-input: Geometry 3840x2160 @ 4480,0
+10:28:18.913: Switched to scene 'gameplay'
+10:28:18.913: ------------------------------------------------
+10:28:18.913: Loaded scenes:
+10:28:18.913: - scene 'gameplay':
+10:28:18.913:     - source: 'gamescreen' (xshm_input)
+10:28:18.913: - scene 'follow-us':
+10:28:18.913: ------------------------------------------------
+10:34:19.493: ---------------------------------
+10:34:19.502: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+10:34:19.502: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+10:34:19.502: 	rate_control: CQP
+10:34:19.502: 	bitrate:      0
+10:34:19.502: 	cqp:          23
+10:34:19.502: 	keyint:       250
+10:34:19.502: 	preset:       p5
+10:34:19.502: 	tuning:       hq
+10:34:19.502: 	multipass:    qres
+10:34:19.502: 	profile:      high
+10:34:19.502: 	width:        3840
+10:34:19.502: 	height:       2160
+10:34:19.502: 	b-frames:     2
+10:34:19.502: 	psycho-aq:    1
+10:34:19.502: 	GPU:          0
+10:34:19.502: 
+10:34:19.693: libfdk_aac encoder created
+10:34:19.693: libfdk_aac bitrate: 192, channels: 2
+10:34:19.696: ==== Recording Start ===============================================
+10:34:19.696: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/jimmy/2023-07-03 10-34-19.mkv'...
+10:37:01.140: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/jimmy/2023-07-03 10-34-19.mkv' stopped
+10:37:01.140: Output 'simple_file_output': stopping
+10:37:01.140: Output 'simple_file_output': Total frames output: 9673
+10:37:01.140: Output 'simple_file_output': Total drawn frames: 9686
+10:37:01.140: ==== Recording Stop ================================================
+10:37:01.238: libfdk_aac encoder destroyed
+11:16:26.405: User switched to scene 'gameplay'
+11:16:26.754: User switched to scene 'follow-us'
+11:16:27.152: User switched to scene 'gameplay'
+11:16:27.554: User switched to scene 'follow-us'
+11:16:27.903: User switched to scene 'gameplay'
+11:16:28.255: User switched to scene 'follow-us'
+11:16:28.606: User switched to scene 'gameplay'
+11:16:29.006: User switched to scene 'follow-us'
+11:16:29.406: User switched to scene 'gameplay'
+11:16:29.857: User switched to scene 'follow-us'
+11:16:30.307: User switched to scene 'gameplay'
+11:16:30.815: User switched to scene 'follow-us'
+11:16:31.212: User switched to scene 'gameplay'
+11:16:31.766: User switched to scene 'follow-us'
+11:16:32.115: User switched to scene 'gameplay'
+11:16:32.720: User switched to scene 'follow-us'
+11:16:33.167: User switched to scene 'gameplay'
+11:16:34.071: User switched to scene 'follow-us'
+11:16:34.523: User switched to scene 'gameplay'
+11:16:35.174: User switched to scene 'follow-us'
+11:16:35.676: User switched to scene 'gameplay'
+11:16:36.023: User switched to scene 'follow-us'
+11:16:36.335: User switched to scene 'gameplay'
+11:16:39.187: User switched to scene 'gameplay'
+11:16:39.437: User switched to scene 'follow-us'
+11:16:40.084: User switched to scene 'gameplay'
+11:16:40.487: User switched to scene 'follow-us'
+11:16:40.838: User switched to scene 'gameplay'

@@ -1,0 +1,66 @@
+[07/17/23, 11:31:39:757] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.32.127, linux 6.4.3-arch1-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[07/17/23, 11:31:39:757] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-auth-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 4
+}
+[07/17/23, 11:31:39:758] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Chicago",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.32.127",
+  "PACKAGE_MANIFEST.commit": "dba8d27",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[07/18/23, 15:31:52:208] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.32.127, linux 6.4.3-arch1-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[07/18/23, 15:31:52:208] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-auth-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 3
+}
+[07/18/23, 15:31:52:208] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Chicago",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.32.127",
+  "PACKAGE_MANIFEST.commit": "dba8d27",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/11/23, 11:43:36:744] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.32.127, linux 6.4.3-arch1-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[08/11/23, 11:43:36:744] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-auth-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 4
+}
+[08/11/23, 11:43:36:744] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Chicago",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.32.127",
+  "PACKAGE_MANIFEST.commit": "dba8d27",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}

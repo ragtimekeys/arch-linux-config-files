@@ -1,0 +1,15 @@
+[Added Associations]
+inode/directory=nemo.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
+
+[Default Applications]
+inode/directory=nemo.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;

@@ -1,0 +1,10 @@
+[MainWindow]
+2 screens: Window-Maximized=true
+2 screens: XPosition=668
+2 screens: YPosition=279
+3 screens: Window-Maximized=true
+3840x2160 screen: Window-Maximized=true
+DP-1 HDMI-0=DP-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAADwAAAAe1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

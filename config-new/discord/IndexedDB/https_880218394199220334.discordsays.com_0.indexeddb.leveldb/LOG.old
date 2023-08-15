@@ -1,0 +1,6 @@
+2023/06/26-14:59:49.609 4fde Creating DB /home/jimmy/.config/discord/IndexedDB/https_880218394199220334.discordsays.com_0.indexeddb.leveldb since it was missing.
+2023/06/26-14:59:49.627 4fde Reusing MANIFEST /home/jimmy/.config/discord/IndexedDB/https_880218394199220334.discordsays.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/26-15:14:42.815 52dc Level-0 table #5: started
+2023/06/26-15:14:42.822 52dc Level-0 table #5: 1187 bytes OK
+2023/06/26-15:14:42.830 52dc Delete type=0 #3
+2023/06/26-15:14:42.830 52dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

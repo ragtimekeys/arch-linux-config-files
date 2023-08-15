@@ -1,0 +1,19 @@
+2023-08-15 17:41:31.176 [info] Log level: Info
+2023-08-15 17:41:31.176 [info] Validating found git in: "git"
+2023-08-15 17:41:31.182 [info] Using git "2.41.0" from "git"
+2023-08-15 17:41:31.187 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-15 17:41:31.195 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-08-15 17:41:31.200 [info] Open repository: /home/jimmy/projects/zivix/firmware-updates
+2023-08-15 17:41:31.208 [info] > git rev-parse --show-toplevel [5ms]
+2023-08-15 17:41:31.213 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-15 17:41:31.216 [info] > git config --get commit.template [8ms]
+2023-08-15 17:41:31.217 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-15 17:41:31.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-08-15 17:41:31.226 [info] > git status -z -uall [1ms]
+2023-08-15 17:41:31.232 [info] > git config --get commit.template [1ms]
+2023-08-15 17:41:31.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-08-15 17:41:31.237 [info] > git status -z -uall [1ms]
+2023-08-15 17:41:31.521 [info] > git show --textconv :cpp/firmwareUpdate.cpp [6ms]
+2023-08-15 17:41:31.523 [info] > git ls-files --stage -- /home/jimmy/projects/zivix/firmware-updates/cpp/firmwareUpdate.cpp [3ms]
+2023-08-15 17:41:31.528 [info] > git cat-file -s 305ff91810c11d0d6d277c27a50601ffe94f4726 [1ms]
+2023-08-15 17:41:31.713 [info] > git check-ignore -v -z --stdin [2ms]

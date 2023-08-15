@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+  { "key": "[Backquote]", "command": "deleteLeft" },
+  {
+    "key": "backspace",
+    "command": "type",
+    "args": {
+      "text": "`"
+    }
+  },
+  {
+    "key": "shift+backspace",
+    "command": "type",
+    "args": {
+      "text": "~"
+    }
+  }
+]

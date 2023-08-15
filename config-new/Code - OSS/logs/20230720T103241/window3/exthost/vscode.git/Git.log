@@ -1,0 +1,29 @@
+2023-07-20 10:52:25.061 [info] Log level: Info
+2023-07-20 10:52:25.061 [info] Validating found git in: "git"
+2023-07-20 10:52:25.061 [info] Using git "2.41.0" from "git"
+2023-07-20 10:52:29.578 [info] Log level: Info
+2023-07-20 10:52:29.578 [info] Validating found git in: "git"
+2023-07-20 10:52:29.578 [info] Using git "2.41.0" from "git"
+2023-07-20 10:52:29.578 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-20 10:52:29.581 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-07-20 10:52:29.586 [info] Open repository: /home/jimmy/projects/zivix/server-play-portal
+2023-07-20 10:52:29.598 [info] > git rev-parse --show-toplevel [8ms]
+2023-07-20 10:52:29.600 [info] > git config --get commit.template [2ms]
+2023-07-20 10:52:29.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-20 10:52:29.614 [info] > git status -z -uall [5ms]
+2023-07-20 10:52:29.621 [info] > git config --get commit.template [0ms]
+2023-07-20 10:52:29.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-07-20 10:52:29.632 [info] > git status -z -uall [4ms]
+2023-07-20 10:52:30.108 [info] > git check-ignore -v -z --stdin [2ms]
+2023-07-20 10:52:36.636 [info] > git show --textconv :server/src/commands.js [5ms]
+2023-07-20 10:52:36.637 [info] > git ls-files --stage -- /home/jimmy/projects/zivix/server-play-portal/server/src/commands.js [1ms]
+2023-07-20 10:52:36.641 [info] > git cat-file -s 2181c9868c3b488f9a2c495a54ad551f9b195f11 [0ms]
+2023-07-20 10:54:07.228 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-20 10:54:17.228 [info] > git show --textconv :server/public/files/firmware/raw/Studio/dsp/3.55.hex [5ms]
+2023-07-20 10:54:17.231 [info] > git ls-files --stage -- /home/jimmy/projects/zivix/server-play-portal/server/public/files/firmware/raw/Studio/dsp/3.55.hex [4ms]
+2023-07-20 10:54:17.235 [info] > git cat-file -s d0a03c7b04d27c6845b57e2992a42230a5fda6c8 [1ms]
+2023-07-20 10:54:17.587 [info] > git check-ignore -v -z --stdin [3ms]
+2023-07-20 10:54:52.103 [info] > git ls-files --stage -- /home/jimmy/projects/zivix/server-play-portal/server/public/files/firmware/generatedJsons/Studio/dsp/3.55.json [14ms]
+2023-07-20 10:54:52.108 [info] > git show --textconv :server/public/files/firmware/generatedJsons/Studio/dsp/3.55.json [22ms]
+2023-07-20 10:54:52.114 [info] > git cat-file -s 194837cbef372c4c9d2e333748909d0b3e3a4f59 [7ms]
+2023-07-20 10:54:52.586 [info] > git check-ignore -v -z --stdin [1ms]
