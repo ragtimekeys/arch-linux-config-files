@@ -1,0 +1,18 @@
+bumblebee-status
+discord-screenaudio
+xwallpaper
+wireplumber
+steam
+vlc
+reaper
+rofi
+rofi-emoji
+redshift
+
+nvidia-dkms
+rog-control-center
+awesome-terminal-fonts
+bemenu #maybe this is for the bar
+carla #cool vst houser
+yabridge #run windows vsts
+arc-gtk-theme
