@@ -1,0 +1,67 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 {high|medium|low}"
+    exit 1
+fi
+
+# Set Xresources values based on argument
+case "$1" in
+    "high")
+        echo "Setting high scaling..."
+        echo "Xft.dpi: 192
+URxvt.font: xft:FiraMono-Regular:size=10
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb" > ~/.Xresources
+        xrdb -merge ~/.Xresources
+
+        # Export environment variables
+        echo "export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
+export QT_AUTO_SCREEN_SCALE_FACTOR=1" > ~/.profile
+        ;;
+    "medium")
+        echo "Setting medium scaling..."
+        echo "Xft.dpi: 144
+URxvt.font: xft:FiraMono-Regular:size=9
+Xft.autohint: 1
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb" > ~/.Xresources
+        xrdb -merge ~/.Xresources
+
+        # Export environment variables
+        echo "export GDK_SCALE=1.5
+export GDK_DPI_SCALE=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1" > ~/.profile
+        ;;
+    "low")
+        echo "Setting low scaling..."
+        echo "Xft.dpi: 96
+URxvt.font: xft:FiraMono-Regular:size=8
+Xft.autohint: 1
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintnone
+Xft.hinting: 0
+Xft.antialias: 0
+Xft.rgba: none" > ~/.Xresources
+        xrdb -merge ~/.Xresources
+
+        # Export environment variables
+        echo "export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1" > ~/.profile
+        ;;
+    *)
+        echo "Invalid argument. Usage: $0 {high|medium|low}"
+        exit 1
+        ;;
+esac
+
+echo "Settings applied for $1 scaling."

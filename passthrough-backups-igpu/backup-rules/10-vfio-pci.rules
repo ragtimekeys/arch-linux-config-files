@@ -1,0 +1,1 @@
+SUBSYSTEM=="pci", ATTRS{idVendor}=="1002", ATTRS{idDevice}=="164e", RUN+="/usr/bin/vfio-bind"

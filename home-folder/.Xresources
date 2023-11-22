@@ -1,0 +1,8 @@
+Xft.dpi: 144
+URxvt.font: xft:FiraMono-Regular:size=9
+Xft.autohint: 1
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb

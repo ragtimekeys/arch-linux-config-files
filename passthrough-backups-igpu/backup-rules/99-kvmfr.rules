@@ -1,0 +1,1 @@
+SUBSYSTEM=="kvmfr", OWNER="jimmy", GROUP="kvm", MODE="0660"
